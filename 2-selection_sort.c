@@ -22,7 +22,7 @@ void swap_ints(int *a, int *b)
  *
  * Returns: Prints the array after each loop
  */
-void Selection_sort(int *array, size_t size)
+void selection_sort(int *array, size_t size)
 {
 	int *min;
 	size_t i, j;
