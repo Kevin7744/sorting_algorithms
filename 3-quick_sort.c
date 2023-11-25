@@ -12,7 +12,7 @@
 int partition(int *array, size_t size, int low, int high)
 {
 	int pivot = array[high];
-	int i = low- 1;
+	int i = low - 1;
 	int j = 0;
 	int temp = 0;
 
@@ -33,6 +33,7 @@ int partition(int *array, size_t size, int low, int high)
 
 	return i + 1;
 }
+
 /**
  * quicksort - quicksort
  * @array: array
